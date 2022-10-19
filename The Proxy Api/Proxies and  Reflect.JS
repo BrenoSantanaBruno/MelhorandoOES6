@@ -14,5 +14,5 @@ return name in target ? target[name] : 'Non-existent';
     }
 };
 var proxy = new Proxy(person, handler);
-proxy.name = 'Anna';
+proxy.name = 'Breno';
 console.log(proxy. name);
