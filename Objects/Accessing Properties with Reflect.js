@@ -8,7 +8,7 @@ class Person {
         return this._name;
     }
 
-    set name(value){
+    set:(value){
         this._name = value;
     }
 }
