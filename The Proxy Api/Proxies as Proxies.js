@@ -15,4 +15,4 @@ let protoHandler = {
 let proxy = new Proxy({}, handler);
 let protoProxy = new Proxy(proxy, protoHandler);
 Reflect.setPrototypeOf(person, protoProxy);
-console.log(person.hobbies);
+console.log(person. );
